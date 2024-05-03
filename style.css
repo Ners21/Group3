@@ -710,13 +710,17 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 .referensi .referensi-container .referensi {
-  position: relative;
-  align-items: center;
+  position: static;
+  align-items: start;
   transition: all 0.1s ease-in-out;
 }
 .referensi .referensi-container .referensi span {
   color: var(--color-secondary);
   font-size: 1.5rem;
+  transition: all 0.1s ease-in-out;
+}
+.referensi .referensi-container .referensi p {
+  font-size: 1rem;
   transition: all 0.1s ease-in-out;
 }
 /*Independed components*/
@@ -880,7 +884,7 @@ footer {
   }
 
   .controls .control {
-    margin: 1rem rem;
+    margin: 1rem 0.3rem;
   }
 
   .about-container {
@@ -951,6 +955,11 @@ footer {
     align-items: start;
     font-size: 0.7em;
     padding-inline: 25px;
+  }
+
+  .referensi .referensi-container .referensi p {
+    font-size: 0.8rem;
+    transition: all 0.1s ease-in-out;
   }
 
   .main-title h2 {
