@@ -703,27 +703,22 @@ footer {
 
 .contact-container .contact-content-con .left-contact .contact-icons a {
   color: var(--color-secondary);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .contact-container .contact-content-con .left-contact .contact-icons span {
   transition: all 0.4s ease-in-out;
 }
-.contact-container .contact-content-con .left-contact .contact-icons .footer-icon span {
-  transition: all 0.4s ease-in-out;
-  font-size: 1.2rem;
-  text-align: start;
-  padding-top: 3rem;
-  padding-bottom: 0rem;
+.referensi .referensi-container .referensi {
+  position: relative;
+  align-items: center;
+  transition: all 0.1s ease-in-out;
+}
+.referensi .referensi-container .referensi span {
   color: var(--color-secondary);
+  font-size: 1.5rem;
+  transition: all 0.1s ease-in-out;
 }
-.contact-container .contact-content-con .left-contact .contact-icons .footer-icon p {
-  transition: all 0.4s ease-in-out;
-  font-size: 1.2rem;
-  text-align: start;
-  padding-top: 0;
-}
-
 /*Independed components*/
 .btn-con {
   display: flex;
