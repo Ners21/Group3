@@ -238,7 +238,7 @@ footer {
 
 .about-container .right-about-judul p {
   font-size: 1rem;
-  text-transform: lowercase;
+  text-transform: capitalize;
 }
 
 .about-container .right-about-judul span {
@@ -278,7 +278,7 @@ footer {
 .about-container .right-about .about-item .abt-text .small-text {
   padding-left: rem;
   position: static;
-  text-transform: lowercase;
+  text-transform: capitalize;
   font-size: 1rem;
   color: var(--color-grey-1);
   letter-spacing: 1px;
